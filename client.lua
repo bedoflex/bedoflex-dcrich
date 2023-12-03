@@ -1,8 +1,8 @@
 local playercount = 0
 
-Citizen.CreateThread(function()
+CreateThread(function()
 	while true do
-		Citizen.Wait(30000)
+		Wait(30000)
 		SetDiscordAppId()
 		SetDiscordRichPresenceAsset('bedoflexv1')
 		SetDiscordRichPresenceAssetText('discord.gg/bedoflex')
